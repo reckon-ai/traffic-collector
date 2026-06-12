@@ -27,7 +27,7 @@ periods (day/week/month/total) in a single call.
 Generate the SSID mapping from the fleet CSV:
 
 ```sh
-python3 generate-mapping.py ~/Downloads/RK\ Machine\ Managmennt\ -\ MAIN.csv > mapping.txt
+python3 generate-mapping.py fleet.csv > mapping.txt
 ```
 
 Run against a single host:
